@@ -70,9 +70,9 @@ export const profileConfig: ProfileConfig = {
     email: "jhonrel0216@email.com",
     phone: "+63 935 478 5699",
     website: "https://johndoe.vercel.app",
-    linkedin: "https://linkedin.com/in/johndoe",
+    // linkedin: "https://linkedin.com/in/johndoe",
     github: "https://github.com/frontsunriver",
-    twitter: "https://twitter.com/johndoe"
+    // twitter: "https://twitter.com/johndoe"
   },
   experience: {
     title: "Experience",
@@ -82,7 +82,7 @@ export const profileConfig: ProfileConfig = {
         position: "Senior Software Engineer",
         duration: "2023 - Present",
         description: "Lead development of microservices architecture serving 1M+ users. Implemented CI/CD pipelines reducing deployment time by 60%.",
-        technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker", "Kubernetes"]
+        technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker", "Kubernetes", ]
       },
       {
         company: "Deloitte Digital",
@@ -128,7 +128,7 @@ export const profileConfig: ProfileConfig = {
       {
         name: "E-Commerce Platform",
         description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
-        technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
+        technologies: ["React", "Node.js", "Express.js", "PostgreSQL", "Stripe", "AWS", "Docker"],
         github: "https://github.com/frontsunriver/ecommerce-platform",
         live: "https://dld-vip.com",
         image: "/images/dld-vip.jpg"
@@ -136,41 +136,41 @@ export const profileConfig: ProfileConfig = {
       {
         name: "E-Commerce Platform",
         description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
-        technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
+        technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS", "Tailwind CSS"],
         github: "https://github.com/frontsunriver/ecommerce-platform",
-        live: "https://dld-vip.com",
+        live: "https://www.carousell.sg/",
         image: "/images/carousell.png"
       },
       {
         name: "Healthcare Dashboard",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
-        technologies: ["Vue.js", "Chart.js", "OpenWeather API", "PWA"],
+        technologies: ["Vue.js", "Chart.js", "Vuex", "PWA", "Material UI", "Python", "Django", "Postgres"],
         github: "https://github.com/frontsunriver/weather-dashboard",
-        live: "https://weather-demo.com",
+        live: "https://www.curvehealth.com",
         image: "/images/curvehealth.png"
       },
       {
         name: "Travel booking Agency",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
-        technologies: ["Vue.js", "Chart.js", "OpenWeather API", "PWA"],
+        technologies: ["React.js", "Next.js", "Nest.js", "Postgres", "AWS" , "Tailwind CSS"],
         github: "https://github.com/frontsunriver/weather-dashboard",
-        live: "https://weather-demo.com",
+        live: "https://campanyon.com",
         image: "/images/campanyon.png"
       },
       {
         name: "Stable coin for inflattion",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
-        technologies: ["Vue.js", "Chart.js", "OpenWeather API", "PWA"],
+        technologies: ["React", "Next.js", "Web3.js", "Chart.js", "TheGraph", "Typescript"],
         github: "https://github.com/frontsunriver/weather-dashboard",
-        live: "https://weather-demo.com",
+        live: "https://nuon.fi",
         image: "/images/nuon.png"
       },
       {
-        name: "Innovative ",
+        name: "Innovative Crypto Asset management platform",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
-        technologies: ["Vue.js", "Chart.js", "OpenWeather API", "PWA"],
+        technologies: ["Next.js", "Chart.js", "Web3", "Solidity"],
         github: "https://github.com/frontsunriver/weather-dashboard",
-        live: "https://weather-demo.com",
+        live: "https://eclipse.if",
         image: "/images/eclipsefi.png"
       }
     ]
