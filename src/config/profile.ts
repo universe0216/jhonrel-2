@@ -70,9 +70,9 @@ export const profileConfig: ProfileConfig = {
     email: "jhonrel0216@email.com",
     phone: "+63 935 478 5699",
     website: "https://johndoe.vercel.app",
-    // linkedin: "https://linkedin.com/in/johndoe",
+    linkedin: "",
     github: "https://github.com/frontsunriver",
-    // twitter: "https://twitter.com/johndoe"
+    twitter: ""
   },
   experience: {
     title: "Experience",
