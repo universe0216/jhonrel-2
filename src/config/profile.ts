@@ -80,23 +80,30 @@ export const profileConfig: ProfileConfig = {
       {
         company: "Accenture",
         position: "Senior Software Engineer",
-        duration: "2023 - Present",
-        description: "Lead development of microservices architecture serving 1M+ users. Implemented CI/CD pipelines reducing deployment time by 60%.",
-        technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker", "Kubernetes", ]
+        duration: "January 2024 - Present",
+        description: "",
+        technologies: ["React","Vue.js", "Next.js", "Node.js", "TypeScript", "AWS", "Docker", "Kubernetes", "Postgres", "Redis" ]
+      },
+      {
+        company: "Carousell",
+        position: "Full Stack Engineer",
+        duration: "September 2022 - December 2023",
+        description: "",
+        technologies: ["React.js","TypeScript", "Nest.js", "MongoDB", "PostgreSQL", "Redis"]
       },
       {
         company: "Deloitte Digital",
         position: "Full Stack Developer",
-        duration: "2020 - 2022",
-        description: "Built and maintained web applications using modern JavaScript frameworks. Collaborated with design team to implement responsive UIs.",
-        technologies: ["Vue.js", "Express.js", "MongoDB", "PostgreSQL", "Redis"]
+        duration: "May 2020 - August 2022",
+        description: "",
+        technologies: ["React", "TypeScript", "Next.js", "JavaScript", "CSS3", "HTML5", "Sass"]
       },
       {
         company: "HashMicro ",
         position: "Web Developer",
-        duration: "2018 - 2020",
-        description: "Developed responsive websites and web applications for various clients. Focused on performance optimization and user experience.",
-        technologies: ["React", "JavaScript", "CSS3", "HTML5", "Sass"]
+        duration: "January 2018 - April 2020",
+        description: "",
+        technologies: ["PHP", "React", "TypeScript", "Next.js", "JavaScript", "CSS3", "HTML5", "Sass"]
       }
     ]
   },
