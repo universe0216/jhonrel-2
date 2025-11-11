@@ -4,16 +4,16 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        {/* <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             {profileConfig.skills.title}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Technologies and tools I work with to bring ideas to life
           </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        </div> */}
+{/* 
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8">
           {profileConfig.skills.categories.map((category, categoryIndex) => (
             <div
               key={categoryIndex}
@@ -36,15 +36,15 @@ const Skills = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* Additional Skills Section */}
-        <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8">
+        <div className="text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
             What I Do
-          </h3>
+          </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="h-8 w-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -63,9 +63,21 @@ const Skills = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2" />
                 </svg>
               </div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">Backend Development</h4>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">API Development</h4>
               <p className="text-gray-600">
                 Building scalable server-side applications and APIs with robust architecture.
+              </p>
+            </div>
+            
+            <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="h-8 w-8 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+              </div>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">Automation Development</h4>
+              <p className="text-gray-600">
+              Designing and implementing automation solutions that streamline business processes and optimize workflows.
               </p>
             </div>
             

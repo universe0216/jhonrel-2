@@ -13,7 +13,9 @@ const Hero = () => {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-700 mb-6">
             {profileConfig.personal.title}
           </h2>
-          
+          {/* <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-700 mb-6">
+            {profileConfig.personal.subtitle}
+          </h2> */}
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
             {profileConfig.personal.bio}
           </p>

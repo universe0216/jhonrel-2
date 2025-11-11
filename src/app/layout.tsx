@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jhonrel Acharon - Full Stack Developer",
-  description: "Professional portfolio website showcasing my experience as a full-stack developer, featuring projects, skills, and contact information.",
+  title: "Jhonrel Acharon - Software Engineer",
+  description: "Professional portfolio website showcasing my experience as a software engineer, featuring projects, skills, and contact information.",
   keywords: ["portfolio", "developer", "full-stack", "web development", "React", "Node.js", "TypeScript"],
   authors: [{ name: "Jhonrel Acharon" }],
   openGraph: {
-    title: "Jhonrel Acharon - Full Stack Developer",
-    description: "Professional portfolio website showcasing my experience as a full-stack developer",
+    title: "Jhonrel Acharon - Software Engineer",
+    description: "Professional portfolio website showcasing my experience as a software engineer",
     type: "website",
   },
 };

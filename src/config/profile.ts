@@ -63,9 +63,9 @@ export interface ProfileConfig {
 export const profileConfig: ProfileConfig = {
   personal: {
     name: "Jhonrel Alvero Acharon",
-    title: "Senior Full Stack Engineer",
-    subtitle: "Building amazing digital experiences",
-    bio: "Senior Full-Stack Engineer with 8+ years of experience building scalable, high-performance web applications using modern frameworks. Expert in designing and developing end-to-end solutions, from responsive, intuitive frontends to robust backend services. Proficient in modern frontend technologies with a strong eye for UI/UX best practices and performance optimization. Proven experience in microservices, RESTful APIs, and full-stack product delivery.",
+    title: "Full-stack & Automation Engineer",
+    subtitle: "Full-stack & Automation Engineer",
+    bio: "Results-driven Senior Full-stack Engineer with 8+ years of experience building and optimizing scalable backend systems, APIs, and automation workflows. Specialized in API development, AI-driven automation, and database design/management using Python, Node.js, and SQLAlchemy. Proven track record in developing microservice architectures, integrating third-party and AI tools (Zapier, n8n), and implementing secure, high-performance data systems.",
     location: "Philippines",
     email: "jhonrel0216@email.com",
     phone: "+63 935 478 5699",
@@ -82,28 +82,35 @@ export const profileConfig: ProfileConfig = {
         position: "Senior Software Engineer",
         duration: "January 2024 - Present",
         description: "",
-        technologies: ["React","Vue.js", "Next.js", "Node.js", "TypeScript", "AWS", "Docker", "Kubernetes", "Postgres", "Redis" ]
+        technologies: ["TypeScript", "Python", "n8n", "React", "Next.js", "Node.js", "AWS", "Docker", "Kubernetes", "Postgres", "Redis" ]
+      },
+      {
+        company: "Artization",
+        position: "Founding Engineer",
+        duration: "October 2023 - Present",
+        description: "",
+        technologies: ["TypeScript", "Python", "Node.js", "Express.js", "n8n", "React", "Next.js", "Node.js", "AWS", "Docker", "Kubernetes", "MongoDB", "Redis" ]
       },
       {
         company: "Carousell",
         position: "Full Stack Engineer",
         duration: "September 2022 - December 2023",
         description: "",
-        technologies: ["React.js","TypeScript", "Nest.js", "MongoDB", "PostgreSQL", "Redis"]
+        technologies: ["React.js","TypeScript", "Zapier", "n8n", "Nest.js", "MongoDB", "PostgreSQL", "Redis"]
       },
       {
         company: "Deloitte Digital",
         position: "Full Stack Developer",
         duration: "May 2020 - August 2022",
         description: "",
-        technologies: ["React", "TypeScript", "Next.js", "JavaScript", "CSS3", "HTML5", "Sass"]
+        technologies: ["Python", "TypeScript", "Next.js", "JavaScript", "CSS3", "HTML5", "Sass"]
       },
       {
         company: "HashMicro ",
         position: "Web Developer",
         duration: "January 2018 - April 2020",
         description: "",
-        technologies: ["PHP", "React", "TypeScript", "Next.js", "JavaScript", "CSS3", "HTML5", "Sass"]
+        technologies: ["Python", "React", "TypeScript", "Next.js", "JavaScript", "CSS3", "HTML5", "Sass"]
       }
     ]
   },
@@ -111,20 +118,20 @@ export const profileConfig: ProfileConfig = {
     title: "Skills",
     categories: [
       {
-        name: "Languages",
-        items: ["JavaScript", "TypeScript", "Python", "HTML", "CSS", "SQL"]
-      },
-      {
         name: "Frontend",
-        items: ["React", "Next.js", "Vue.js", "Tailwind CSS", "Sass", "UI Frameworks"]
+        items: ["React", "Next.js", "Vue.js", "Angular", "Tailwind CSS", "Sass", "UI Frameworks", "Responsive Design"]
       },
       {
         name: "Backend",
-        items: ["Node.js", "Express.js", "Django", "PostgreSQL", "MongoDB", "Redis"]
+        items: ["Node.js", "Express.js", "Nest.js", "Django", "FastAPI", "PostgreSQL", "MongoDB", "Redis", "REST APIs", "GraphQL"]
+      },
+      {
+        name: "Automation & Testing",
+        items: ["Selenium", "Playwright", "Puppeteer", "Cypress", "Jest", "Vitest", "PyTest", "WebDriverIO", "API Testing", "E2E Testing"]
       },
       {
         name: "DevOps & Tools",
-        items: ["AWS", "Docker", "Kubernetes", "Git", "CI/CD",  "Nginx"]
+        items: ["AWS", "Docker", "Kubernetes", "Jenkins", "GitHub Actions", "GitLab CI", "Terraform", "Git", "CI/CD", "Nginx", "Monitoring & Logging"]
       },
       
     ]
