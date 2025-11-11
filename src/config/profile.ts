@@ -65,7 +65,7 @@ export const profileConfig: ProfileConfig = {
     name: "Jhonrel Alvero Acharon",
     title: "Full-stack & Automation Engineer",
     subtitle: "Full-stack & Automation Engineer",
-    bio: "Results-driven Senior Full-stack Engineer with 8+ years of experience building and optimizing scalable backend systems, APIs, and automation workflows. Specialized in API development, AI-driven automation, and database design/management using Python, Node.js, and SQLAlchemy. Proven track record in developing microservice architectures, integrating third-party and AI tools (Zapier, n8n), and implementing secure, high-performance data systems.",
+    bio: "Results-driven Senior Full-stack Engineer with 8+ years of experience building and optimizing scalable backend systems, APIs, and automation workflows. Specialized in API development, AI-driven automation, and database design/management using Python, Node.js, and SQLAlchemy. Proven track record in developing microservice architectures, integrating third-party and AI tools, and implementing secure, high-performance data systems.",
     location: "Philippines",
     email: "jhonrel0216@email.com",
     phone: "+63 935 478 5699",
