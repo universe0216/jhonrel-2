@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">About Me</h3>
             <p className="text-gray-300 mb-4">
-              {profileConfig.personal.bio}
+              {profileConfig.personal.title}
             </p>
             <div className="flex space-x-4">
               {profileConfig.personal.linkedin && (
