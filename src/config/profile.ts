@@ -62,13 +62,13 @@ export interface ProfileConfig {
 
 export const profileConfig: ProfileConfig = {
   personal: {
-    name: "Jhonrel Alvero Acharon",
-    title: "Full-stack & Automation Engineer",
+    name: "Jhonrel Acharon",
+    title: "Senior Software Engineer",
     subtitle: "Full-stack & Automation Engineer",
     bio: "Results-driven Senior Full-stack Engineer with 8+ years of experience building and optimizing scalable backend systems, APIs, and automation workflows. Specialized in API development, AI-driven automation, and database design/management using Python, Node.js, and SQLAlchemy. Proven track record in developing microservice architectures, integrating third-party and AI tools, and implementing secure, high-performance data systems.",
     location: "Philippines",
     email: "jhonrel0216@email.com",
-    phone: "+63 935 478 5699",
+    phone: "+63 950 690 9844",
     website: "https://johndoe.vercel.app",
     linkedin: "",
     github: "https://github.com/frontsunriver",
@@ -142,7 +142,7 @@ export const profileConfig: ProfileConfig = {
       {
         name: "E-Commerce Platform",
         description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
-        technologies: ["React", "Node.js", "Express.js", "PostgreSQL", "Stripe", "AWS", "Docker"],
+        technologies: [],
         github: "https://github.com/frontsunriver/ecommerce-platform",
         live: "https://dld-vip.com",
         image: "/images/dld-vip.jpg"
@@ -150,7 +150,7 @@ export const profileConfig: ProfileConfig = {
       {
         name: "E-Commerce Platform",
         description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
-        technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS", "Tailwind CSS"],
+        technologies: [],
         github: "https://github.com/frontsunriver/ecommerce-platform",
         live: "https://www.carousell.sg/",
         image: "/images/carousell.png"
@@ -158,7 +158,7 @@ export const profileConfig: ProfileConfig = {
       {
         name: "Healthcare Dashboard",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
-        technologies: ["Vue.js", "Chart.js", "Vuex", "PWA", "Material UI", "Python", "Django", "Postgres"],
+        technologies: [],
         github: "https://github.com/frontsunriver/weather-dashboard",
         live: "https://www.curvehealth.com",
         image: "/images/curvehealth.png"
@@ -166,7 +166,7 @@ export const profileConfig: ProfileConfig = {
       {
         name: "Travel booking Agency",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
-        technologies: ["React.js", "Next.js", "Nest.js", "Postgres", "AWS" , "Tailwind CSS"],
+        technologies: [],
         github: "https://github.com/frontsunriver/weather-dashboard",
         live: "https://campanyon.com",
         image: "/images/campanyon.png"
@@ -174,7 +174,7 @@ export const profileConfig: ProfileConfig = {
       {
         name: "Stable coin for inflattion",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
-        technologies: ["React", "Next.js", "Web3.js", "Chart.js", "TheGraph", "Typescript"],
+        technologies: [],
         github: "https://github.com/frontsunriver/weather-dashboard",
         live: "https://nuon.fi",
         image: "/images/nuon.png"
@@ -182,7 +182,7 @@ export const profileConfig: ProfileConfig = {
       {
         name: "Innovative Crypto Asset management platform",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
-        technologies: ["Next.js", "Chart.js", "Web3", "Solidity"],
+        technologies: [],
         github: "https://github.com/frontsunriver/weather-dashboard",
         live: "https://eclipse.if",
         image: "/images/eclipsefi.png"
@@ -193,7 +193,7 @@ export const profileConfig: ProfileConfig = {
     title: "Education",
     items: [
       {
-        institution: "Nanyang Technological University",
+        institution: "University of the Philippines Diliman",
         degree: "Bachelor's Degree",
         duration: "May 2014 – Sep 2017",
         description: ""
