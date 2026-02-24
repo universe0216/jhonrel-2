@@ -51,9 +51,9 @@ const Skills = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                 </svg>
               </div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">Frontend Development</h4>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">Full-stack development</h4>
               <p className="text-gray-600">
-                Creating responsive and interactive user interfaces with modern frameworks and libraries.
+                Building end-to-end applications with modern frontend frameworks and robust backend systems.
               </p>
             </div>
             
@@ -63,9 +63,9 @@ const Skills = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2" />
                 </svg>
               </div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">API Development</h4>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">CMS and Shopify development</h4>
               <p className="text-gray-600">
-                Building scalable server-side applications and APIs with robust architecture.
+                Creating custom e-commerce solutions and content management systems with Shopify and modern CMS platforms.
               </p>
             </div>
             
@@ -75,9 +75,9 @@ const Skills = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
                 </svg>
               </div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">Automation Development</h4>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">Automation</h4>
               <p className="text-gray-600">
-              Designing and implementing automation solutions that streamline business processes and optimize workflows.
+                Designing and implementing automation solutions that streamline business processes and optimize workflows.
               </p>
             </div>
             
@@ -87,7 +87,7 @@ const Skills = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">DevOps & Deployment</h4>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">DevOps</h4>
               <p className="text-gray-600">
                 Implementing CI/CD pipelines and managing cloud infrastructure for optimal performance.
               </p>

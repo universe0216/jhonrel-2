@@ -17,7 +17,7 @@ const Projects = () => {
           {profileConfig.projects.items.map((project, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group"
+              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 group flex flex-col justify-between"
             >
               {/* Project Image */}
               <div className="h-48 relative overflow-hidden">
@@ -35,7 +35,7 @@ const Projects = () => {
                 </div>
               </div>
               
-              <div className="p-6">
+              <div className="p-6 pb-2">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
                   {project.name}
                 </h3>
@@ -54,8 +54,8 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                
-                <div className="flex space-x-4">
+              </div>
+              <div className="flex justify-center pb-6">
                   {/* <a
                     href={project.github}
                     target="_blank"
@@ -79,7 +79,6 @@ const Projects = () => {
                     </svg>
                     Live Demo
                   </a>
-                </div>
               </div>
             </div>
           ))}

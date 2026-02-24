@@ -118,19 +118,19 @@ export const profileConfig: ProfileConfig = {
     title: "Skills",
     categories: [
       {
-        name: "Frontend",
-        items: ["React", "Next.js", "Vue.js", "Angular", "Tailwind CSS", "Sass", "UI Frameworks", "Responsive Design"]
+        name: "Full-stack development",
+        items: ["React", "Next.js", "Vue.js", "Angular", "Tailwind CSS", "Sass", "UI Frameworks", "Responsive Design", "Node.js", "Express.js", "Nest.js", "Django", "FastAPI", "PostgreSQL", "MongoDB", "Redis", "REST APIs", "GraphQL"]
       },
       {
-        name: "Backend",
-        items: ["Node.js", "Express.js", "Nest.js", "Django", "FastAPI", "PostgreSQL", "MongoDB", "Redis", "REST APIs", "GraphQL"]
+        name: "CMS and Shopify development",
+        items: ["Shopify", "WordPress", "Contentful", "Strapi", "Sanity", "Shopify Liquid", "Shopify API", "Theme Development", "App Development"]
       },
       {
-        name: "Automation & Testing",
-        items: ["Selenium", "Playwright", "Puppeteer", "Cypress", "Jest", "Vitest", "PyTest", "WebDriverIO", "API Testing", "E2E Testing"]
+        name: "Automation",
+        items: ["Selenium", "Playwright", "Puppeteer", "Cypress", "Jest", "Vitest", "PyTest", "WebDriverIO", "API Testing", "E2E Testing", "n8n", "Zapier"]
       },
       {
-        name: "DevOps & Tools",
+        name: "DevOps",
         items: ["AWS", "Docker", "Kubernetes", "Jenkins", "GitHub Actions", "GitLab CI", "Terraform", "Git", "CI/CD", "Nginx", "Monitoring & Logging"]
       },
       
@@ -140,18 +140,34 @@ export const profileConfig: ProfileConfig = {
     title: "Featured Projects",
     items: [
       {
-        name: "E-Commerce Platform",
-        description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
+        name: "Artization",
+        description: "AI-powered art generation platform",
         technologies: [],
-        github: "https://github.com/frontsunriver/ecommerce-platform",
+        github: "",
+        live: "https://artization.app",
+        image: "/images/artization.png"
+      },
+      {
+        name: "Netfone NZ",
+        description: "Telecommunication company in New Zealand",
+        technologies: [],
+        github: "",
+        live: "https://netfone.io",
+        image: "/images/netfone.png"
+      },
+      {
+        name: "DLD Vip",
+        description: "E-commerce platform for selling firearms and accessories",
+        technologies: [],
+        github: "",
         live: "https://dld-vip.com",
         image: "/images/dld-vip.jpg"
       },
       {
         name: "E-Commerce Platform",
-        description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.",
+        description: "Comprehensive e-commerce platform",
         technologies: [],
-        github: "https://github.com/frontsunriver/ecommerce-platform",
+        github: "",
         live: "https://www.carousell.sg/",
         image: "/images/carousell.png"
       },
@@ -159,7 +175,7 @@ export const profileConfig: ProfileConfig = {
         name: "Healthcare Dashboard",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
         technologies: [],
-        github: "https://github.com/frontsunriver/weather-dashboard",
+        github: "",
         live: "https://www.curvehealth.com",
         image: "/images/curvehealth.png"
       },
@@ -167,7 +183,7 @@ export const profileConfig: ProfileConfig = {
         name: "Travel booking Agency",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
         technologies: [],
-        github: "https://github.com/frontsunriver/weather-dashboard",
+        github: "",
         live: "https://campanyon.com",
         image: "/images/campanyon.png"
       },
@@ -175,7 +191,7 @@ export const profileConfig: ProfileConfig = {
         name: "Stable coin for inflattion",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
         technologies: [],
-        github: "https://github.com/frontsunriver/weather-dashboard",
+        github: "",
         live: "https://nuon.fi",
         image: "/images/nuon.png"
       },
@@ -183,7 +199,7 @@ export const profileConfig: ProfileConfig = {
         name: "Innovative Crypto Asset management platform",
         description: "A responsive healthcare dashboard with location-based forecasts, interactive maps, and data visualization.",
         technologies: [],
-        github: "https://github.com/frontsunriver/weather-dashboard",
+        github: "",
         live: "https://eclipse.if",
         image: "/images/eclipsefi.png"
       }
